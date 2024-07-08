@@ -379,16 +379,12 @@ PrefabInstance:
       value: Obstacle
       objectReference: {fileID: 0}
     - target: {fileID: 4353152311596898447, guid: 8dffcfd409faa0a479203b338269aeb4, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 4.32013
-      objectReference: {fileID: 0}
-    - target: {fileID: 4353152311596898447, guid: 8dffcfd409faa0a479203b338269aeb4, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 9.48
+      value: 8.51
       objectReference: {fileID: 0}
     - target: {fileID: 4353152311596898447, guid: 8dffcfd409faa0a479203b338269aeb4, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.1
+      value: 4.7
       objectReference: {fileID: 0}
     - target: {fileID: 4353152311596898447, guid: 8dffcfd409faa0a479203b338269aeb4, type: 3}
       propertyPath: m_LocalPosition.z
@@ -396,19 +392,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4353152311596898447, guid: 8dffcfd409faa0a479203b338269aeb4, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.7071066
       objectReference: {fileID: 0}
     - target: {fileID: 4353152311596898447, guid: 8dffcfd409faa0a479203b338269aeb4, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4353152311596898447, guid: 8dffcfd409faa0a479203b338269aeb4, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4353152311596898447, guid: 8dffcfd409faa0a479203b338269aeb4, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0.707107
       objectReference: {fileID: 0}
     - target: {fileID: 4353152311596898447, guid: 8dffcfd409faa0a479203b338269aeb4, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -420,7 +416,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4353152311596898447, guid: 8dffcfd409faa0a479203b338269aeb4, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
+      value: -90
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -495,10 +491,6 @@ PrefabInstance:
     - target: {fileID: 1528488403595235375, guid: c7e6acf55f24fe64d81eceacb520bf78, type: 3}
       propertyPath: m_Name
       value: Rocket
-      objectReference: {fileID: 0}
-    - target: {fileID: 7940781609419649141, guid: c7e6acf55f24fe64d81eceacb520bf78, type: 3}
-      propertyPath: m_Drag
-      value: 0.75
       objectReference: {fileID: 0}
     - target: {fileID: 8530391918535026438, guid: c7e6acf55f24fe64d81eceacb520bf78, type: 3}
       propertyPath: m_LocalPosition.x
