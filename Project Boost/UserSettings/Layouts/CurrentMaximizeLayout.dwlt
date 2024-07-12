@@ -24,7 +24,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 1777
+  controlID: 8862
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -92,7 +92,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 1
+    m_EnableMouseInput: 0
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -147,7 +147,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 1715
+  controlID: 8812
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -172,7 +172,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 1716
+  controlID: 8813
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -236,9 +236,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 1cfbffff
-      m_LastClickedID: -1252
-      m_ExpandedIDs: 32fbffff
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 48fbfcff6efdfcffb2fffcff9200fdff20dffdffc4e2fdff32fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -631,9 +631,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 21.36, y: 0.25, z: 0}
+    m_Target: {x: -4.315033, y: 2.3834524, z: 0.10939397}
     speed: 2
-    m_Value: {x: 21.36, y: 0.25, z: 0}
+    m_Value: {x: -4.315033, y: 2.3834524, z: 0.10939397}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -679,13 +679,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.16682608, y: 0.13413854, z: -0.022961998, w: 0.9765716}
+    m_Target: {x: 0.120872125, y: -0.025313918, z: 0.002971907, w: 0.99237365}
     speed: 2
-    m_Value: {x: 0.16682246, y: 0.13413563, z: -0.022961501, w: 0.97655046}
+    m_Value: {x: 0.12086819, y: -0.025313094, z: 0.0029718103, w: 0.99234134}
   m_Size:
-    m_Target: 8.533793
+    m_Target: 2.2656708
     speed: 2
-    m_Value: 8.533793
+    m_Value: 2.2656708
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -782,7 +782,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/Scenes
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -790,16 +790,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/Scenes
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\johan\OneDrive\Documents\BoostyProject\Project Boost
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: a2590000
-    m_LastClickedID: 22946
-    m_ExpandedIDs: 00000000
+    m_SelectedIDs: a8590000
+    m_LastClickedID: 22952
+    m_ExpandedIDs: 00000000a6590000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -852,8 +852,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 1cfbffff
-    m_LastClickedInstanceID: -1252
+    m_SelectedInstanceIDs: 
+    m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
@@ -941,7 +941,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 1778
+  controlID: 8863
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
