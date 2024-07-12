@@ -6,6 +6,9 @@ using UnityEngine.SceneManagement;
 
 public class CollisionHandler : MonoBehaviour
 {
+    [SerializeField] float reloadLevelDelay = 1f;
+    [SerializeField] float nextLevelDelay = 1f;
+
     private void OnCollisionEnter(Collision other)
     {
         switch (other.gameObject.tag)
@@ -14,18 +17,33 @@ public class CollisionHandler : MonoBehaviour
                 Debug.Log("Friendly object hit");
                 break;
             case "Finish":
-                LoadNextLevel();
+                FinishLevelSequence();
                 break;
             case "Fuel":
                 Debug.Log("Extra fuel added!");
                 break;
             default:
-                ReloadLevel();
+                StartCrashSequence();
                 break;
 
         }
     }
 
+    private void StartCrashSequence()
+    {
+        // todo add SFX upon crash 
+        // todo add particle effect upon crash
+        GetComponent<Movement>().enabled = false;
+        Invoke("ReloadLevel", reloadLevelDelay);
+    }
+
+    private void FinishLevelSequence()
+    {
+        // todo add SFX upon crash 
+        // todo add particle effect upon crash
+        GetComponent<Movement>().enabled = false;
+        Invoke("LoadNextLevel", nextLevelDelay);
+    }
     private void LoadNextLevel()
     {
         int nextSceneIndex = SceneManager.GetActiveScene().buildIndex + 1;
